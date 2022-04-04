@@ -4,5 +4,5 @@ var currentMonth = currentDate.getMonth() + 1;
 var currentYear = currentDate.getFullYear();
 // console.log(currentMonth);
 
-document.getElementById("dateToday").innerHTML =
+document.getElementById("dateToday").innerText =
   currentDay + " " + currentMonth + " " + currentYear;
